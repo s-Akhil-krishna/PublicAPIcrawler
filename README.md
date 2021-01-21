@@ -49,6 +49,7 @@ III. Database Schema
     
     Kindly refer the "Model" class of Sqlite_data.py to understand more about the model of the table.
 
+
 IV. Points achieved
     1. Concept of OOPS
         a. The entire code is written in the form of classes and objects
@@ -95,9 +96,10 @@ IV. Points achieved
         c. Pushed the data into the python SQLite database
     
     
-    All the points are achieved and produces the desired results.
+    Conclusion: All the points are achieved and produces the desired results.
+    Results:    The final table contains 108 valid rows for all the categories i.e (108 rows, 7 columns) .
     
-    A few observations:
+    A few important observations:
     The given API return absolute zero entries for some categories.
     Responses received for such categories are stored in a data member empty_categories.
     
