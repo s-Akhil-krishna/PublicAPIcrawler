@@ -28,6 +28,7 @@ class Model(base):
     category = Column(String)
 
     def __repr__(self):
+        #This represents a row in the db
         return self.api 
 
 #Add all the tables to the database
