@@ -1,6 +1,7 @@
 # PublicAPIcrawler
 Crawl the data from the given API endpoint and store it in a database 
 
+```
 Pre-Docker steps:
     1.Download and install docker from https://www.docker.com/products/docker-desktop
     2.Test if the docker is working by the following cmds
@@ -59,7 +60,7 @@ IV. Points achieved
             b5. Encapsulation - data is mostly used and transferred only inside the class members 
         c. DRY - Do not Repeat Yourself
             Tried to incorporate this principle into the code logic as much as possible.
-    
+
     2. Support for handling athentication requirements & token expiration of server
         API : https://public-apis-api.herokuapp.com
         a. The tokens are obtained from https://public-apis-api.herokuapp.com/api/v1/auth/token
@@ -111,7 +112,7 @@ IV. Points achieved
       4. We can try to use any online crawlers that might give us better speed and memory.  
       5. We can make the code more genralized for similar APIs.     
        
-           
+```           
         
   
 
