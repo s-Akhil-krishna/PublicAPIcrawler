@@ -56,7 +56,7 @@ IV. Points achieved
         b. Followed some of best practices from PEP-8 guidelines :
             b1. structure of code 
             b2. naming conventions with meaningful names 
-            b3. modularity: code split into 2 modules namely "Scraoe.py" & "Sqlite_data.py"
+            b3. modularity: code split into 2 modules namely "Scrape.py" & "Sqlite_data.py"
             b4. Tried to minimize global variables
             b5. Encapsulation - data is mostly used and transferred only inside the class members 
         c. DRY - Do not Repeat Yourself
