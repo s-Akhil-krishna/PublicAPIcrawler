@@ -1,6 +1,7 @@
 #importing dependencies
 import json
 import time
+import pandas as pd
 import requests
 import sqlalchemy
 from Scrape import Crawler
@@ -57,19 +58,21 @@ class processData():
             json_data[key.lower()]=str(value)
         return json_data
 
-    def write_to_db(self): 
+    def write_to_db(self):
+        self.categories,self.data = self.get_data()    
         for json_obj in self.data:
             json_obj = self.prepare(json_obj)
             instance = Model(**json_obj)
             self.session.add(instance)
-        self.session.commit()
+            self.session.commit()
+        self.session.flush()
         print("Successfully pushed to SQLite database")
 
     def query_db(self):
-        print("db query")
-        qs1 = self.session.query(Model).all()
-        print(qs1)
-
+        print("db query results")
+        qs = self.session.query(Model).all()
+        df = pd.DataFrame(qs)
+        print(df)
 
     def print_data(self):
         categories,data = self.get_data()

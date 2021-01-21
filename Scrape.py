@@ -24,9 +24,6 @@ class Crawler():
         self.token = json_data["token"]
         return self.token
 
-    def pretty_json(self,json_data):
-        json_object = json.loads(json_data) 
-        return json.dumps(json_object, indent = 1)
    
     def make_auth_request(self,url):
         token = self.get_token()
@@ -49,7 +46,6 @@ class Crawler():
         url = self.category_base_url.format(page)+category
         response = self.make_auth_request(url)
         json_data = response.json()
-        # pretty_json = self.pretty_json(response.content.decode("utf-8"))
         return json_data
 
     def get_data(self):
@@ -68,9 +64,6 @@ class Crawler():
                 df = pd.DataFrame(rows)
                 print(category)
                 print(df)
+                print()
                 data.extend(rows)
         return all_categories,data
-
-obj = Crawler()
-categories,data = obj.get_data()
-
