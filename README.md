@@ -102,7 +102,7 @@ IV. Points achieved
     A few important observations:
     The given API return absolute zero entries for some categories.
     Responses received for such categories are stored in a data member empty_categories.
-    
+    Lastly, feel free to raise an issue. All required changes can be accomodated based on the validity of use-case. 
       
  V. Possible Improvements      
       1. There are a few different types of ways to creating,storing,retrieving from the database
