@@ -107,12 +107,12 @@ IV. Points achieved
  V. Possible Improvements      
       1. There are a few different types of ways to creating,storing,retrieving from the database
           1a. Probably, we could see which is more readable, relatable for easy working. 
-      2. DB CRUD operations can be effectively incorporated into the code
+      2. DB CRUD operations can be effectively and completely incorporated into the code based on requirements
            Create, Retrieve, Update, Delete
       3. The assignment is focussed on crawling the top surface of the API.
           We could try to dig deeper into all the API links, if we need in-depth crawling.
       4. We can try to use any online crawlers that might give us better speed and memory.  
-      5. We can make the code more genralized for similar APIs.     
+      5. We can make the code more generalized for similar APIs.     
        
 ```           
         
