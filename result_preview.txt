@@ -1,0 +1,333 @@
+
+PS D:\Postman_Assignment> python -i Sqlite_data.py
+page 1
+['Animals', 'Anime', 'Anti-Malware', 'Art & Design', 'Books', 'Business', 'Calendar', 'Cloud Storage & File Sharing', 'Continuous Integration', 'Cryptocurrency']    
+Animals
+         API                             Description    Auth  HTTPS     Cors                                           Link Category
+0  Cat Facts                         Daily cat facts           True       no     https://alexwohlbruck.github.io/cat-facts/  Animals
+1       Cats            Pictures of cats from Tumblr  apiKey   True  unknown                    https://docs.thecatapi.com/  Animals
+2       Dogs      Based on the Stanford Dogs Dataset           True      yes                       https://dog.ceo/dog-api/  Animals
+3    HTTPCat               Cat for every HTTP Status           True  unknown                              https://http.cat/  Animals
+4       IUCN     IUCN Red List of Threatened Species  apiKey  False  unknown       http://apiv3.iucnredlist.org/api/v3/docs  Animals
+5   Movebank  Movement and Migration data of animals           True  unknown   https://github.com/movebank/movebank-api-doc  Animals
+6  Petfinder                                Adoption   OAuth   True      yes  https://www.petfinder.com/developers/v2/docs/  Animals
+7  PlaceGOAT                 Placeholder goat images           True  unknown                         https://placegoat.com/  Animals
+8  RandomCat                 Random pictures of cats           True      yes                    https://aws.random.cat/meow  Animals
+9  RandomDog                 Random pictures of dogs           True      yes                   https://random.dog/woof.json  Animals
+
+Anime
+                API                         Description   Auth  HTTPS     Cors                                               Link Category
+0           AniList          Anime discovery & tracking  OAuth   True  unknown      https://github.com/AniList/ApiV2-GraphQL-Docs    Anime
+1  AnimeNewsNetwork                 Anime industry news          True      yes  https://www.animenewsnetwork.com/encyclopedia/...    Anime
+2             Jikan          Unofficial MyAnimeList API          True      yes                                  https://jikan.moe    Anime
+3             Kitsu            Anime discovery platform  OAuth   True  unknown                       http://docs.kitsu.apiary.io/    Anime
+4     Studio Ghibli  Resources from Studio Ghibli films          True  unknown                    https://ghibliapi.herokuapp.com    Anime
+
+Anti-Malware
+                                     API                   Description    Auth  HTTPS     Cors                                               Link      Category
+0                              AbuseIPDB      IP/domain/URL reputation  apiKey   True  unknown                        https://docs.abuseipdb.com/  Anti-Malware      
+1  AlienVault Open Threat Exchange (OTX)      IP/domain/URL reputation  apiKey   True  unknown                    https://otx.alienvault.com/api/  Anti-Malware      
+2                   Google Safe Browsing   Google Link/Domain Flagging  apiKey   True  unknown       https://developers.google.com/safe-browsing/  Anti-Malware      
+3                               Metacert        Metacert Link Flagging  apiKey   True  unknown                              https://metacert.com/  Anti-Malware      
+4                             VirusTotal  VirusTotal File/URL Analysis  apiKey   True  unknown  https://www.virustotal.com/en/documentation/pu...  Anti-Malware      
+5                     Web Of Trust (WOT)            Website reputation  apiKey   True  unknown                       https://www.mywot.com/en/API  Anti-Malware      
+
+Art & Design
+Empty DataFrame
+Columns: []
+Index: []
+
+Books
+                             API                          Description    Auth  HTTPS     Cors                                               Link Category
+0                  Bhagavad Gita                   Bhagavad Gita text   OAuth   True      yes                        https://bhagavadgita.io/api    Books
+1  British National Bibliography                                Books          False  unknown                             http://bnb.data.bl.uk/    Books
+2                      Goodreads                                Books  apiKey   True  unknown                      https://www.goodreads.com/api    Books
+3                   Google Books                                Books   OAuth   True  unknown               https://developers.google.com/books/    Books
+4                         LibGen        Library Genesis search engine          False  unknown                 http://garbage.world/posts/libgen/    Books
+5                   Open Library  Books, book covers and related data           True  unknown             https://openlibrary.org/developers/api    Books
+6             Penguin Publishing  Books, book covers and related data           True  unknown  http://www.penguinrandomhouse.biz/webservices/...    Books
+
+Business
+                API                                        Description    Auth  HTTPS     Cors                                               Link  Category
+0    Charity Search                            Non-profit charity data  apiKey  False  unknown                   http://charityapi.orghunter.com/  Business
+1     Clearbit Logo  Search for company logos and embed them in you...  apiKey   True  unknown                 https://clearbit.com/docs#logo-api  Business
+2    Domainsdb.info                     Registered Domain Names Search           True  unknown                            https://domainsdb.info/  Business
+3        Freelancer                  Hire freelancers to get work done   OAuth   True  unknown                  https://developers.freelancer.com  Business
+4             Gmail       Flexible, RESTful access to the user's inbox   OAuth   True  unknown           https://developers.google.com/gmail/api/  Business
+5  Google Analytics  Collect, configure and analyze your data to re...   OAuth   True  unknown           https://developers.google.com/analytics/  Business
+6  MailboxValidator   Validate email address to improve deliverability  apiKey   True  unknown  https://www.mailboxvalidator.com/api-single-va...  Business
+7           mailgun                                      Email Service  apiKey   True  unknown                           https://www.mailgun.com/  Business
+8         markerapi                                   Trademark Search          False  unknown                          http://www.markerapi.com/  Business
+9           Ticksel         Friendly website analytics made for humans           True  unknown                                https://ticksel.com  Business
+
+Calendar
+                       API                                        Description    Auth  HTTPS     Cors                                               Link  Category   
+0           Calendar Index                Worldwide Holidays and Working Days  apiKey   True      yes                     https://www.calendarindex.com/  Calendar   
+1          Church Calendar                       Catholic liturgical calendar          False  unknown                     http://calapi.inadiutorium.cz/  Calendar   
+2  Czech Namedays Calendar         Lookup for a name and returns nameday date          False  unknown                         http://svatky.adresa.info/  Calendar   
+3          Google Calendar  Display, create and modify Google calendar events   OAuth   True  unknown  https://developers.google.com/google-apps/cale...  Calendar   
+4          Hebrew Calendar  Convert between Gregorian and Hebrew, fetch Sh...          False  unknown         https://www.hebcal.com/home/developer-apis  Calendar   
+5                 Holidays                 Historical data regarding holidays  apiKey   True  unknown                            https://holidayapi.com/  Calendar   
+6                LectServe                     Protestant liturgical calendar          False  unknown                           http://www.lectserve.com  Calendar   
+7               Nager.Date         Public holidays for more than 90 countries           True       no                              https://date.nager.at  Calendar   
+8        Namedays Calendar           Provides namedays for multiple countries           True      yes                            https://api.abalin.net/  Calendar   
+9         Non-Working Days         Database of ICS files for non working days           True  unknown                    https://github.com/gadael/icsdb  Calendar   
+
+Cloud Storage & File Sharing
+Empty DataFrame
+Columns: []
+Index: []
+
+Continuous Integration
+         API                                        Description    Auth  HTTPS     Cors                                         Link                Category
+0   CircleCI  Automate the software development process usin...  apiKey   True  unknown  https://circleci.com/docs/api/v1-reference/  Continuous Integration
+1   Codeship  Codeship is a Continuous Integration Platform ...  apiKey   True  unknown                https://apidocs.codeship.com/  Continuous Integration
+2  Travis CI  Sync your GitHub projects with Travis CI to te...  apiKey   True  unknown              https://docs.travis-ci.com/api/  Continuous Integration
+
+Cryptocurrency
+              API                                        Description    Auth  HTTPS     Cors                                               Link        Category
+0         Binance  Exchange for Trading Cryptocurrencies based in...  apiKey   True  unknown  https://github.com/binance-exchange/binance-of...  Cryptocurrency
+1  BitcoinAverage  Digital Asset Price Data for the blockchain in...  apiKey   True  unknown                  https://apiv2.bitcoinaverage.com/  Cryptocurrency
+2   BitcoinCharts  Financial and Technical Data related to the Bi...           True  unknown         https://bitcoincharts.com/about/exchanges/  Cryptocurrency
+3        Bitfinex                    Cryptocurrency Trading Platform  apiKey   True  unknown                     https://docs.bitfinex.com/docs  Cryptocurrency      
+4          Bitmex  Real-Time Cryptocurrency derivatives trading p...  apiKey   True  unknown             https://www.bitmex.com/app/apiOverview  Cryptocurrency      
+5         Bittrex            Next Generation Crypto Trading Platform  apiKey   True  unknown                       https://bittrex.com/Home/Api  Cryptocurrency      
+6           Block         Bitcoin Payment, Wallet & Transaction Data  apiKey   True  unknown                    https://www.block.io/docs/basic  Cryptocurrency      
+7      Blockchain         Bitcoin Payment, Wallet & Transaction Data           True  unknown                    https://www.blockchain.info/api  Cryptocurrency      
+8         CoinAPI  All Currency Exchanges integrate under a singl...  apiKey   True       no                           https://docs.coinapi.io/  Cryptocurrency      
+9        Coinbase  Bitcoin, Bitcoin Cash, Litecoin and Ethereum P...  apiKey   True  unknown                    https://developers.coinbase.com  Cryptocurrency      
+
+page 2
+['Currency Exchange', 'Data Validation', 'Development', 'Dictionaries', 'Documents & Productivity', 'Environment', 'Events', 'Finance', 'Food & Drink', 'Games & Comics']
+Currency Exchange
+Empty DataFrame
+Columns: []
+Index: []
+
+Data Validation
+        API            Description Auth  HTTPS     Cors                  Link         Category
+0  vatlayer  VAT number validation        True  unknown  https://vatlayer.com  Data Validation
+
+Development
+                   API                                        Description   Auth  HTTPS     Cors                                      Link     Category
+0        Changelogs.md  Structured changelog metadata from open source...          True  unknown                     https://changelogs.md  Development
+1             CountAPI  Free and simple counting service. You can use ...          True      yes                      https://countapi.xyz  Development
+2  DigitalOcean Status                Status of all DigitalOcean services          True  unknown    https://status.digitalocean.com/api/v1  Development
+3        DomainDb Info  Domain name search to find all domains contain...          True  unknown                    https://domainsdb.info  Development
+4         Faceplusplus                              A tool to detect face  OAuth   True  unknown             https://www.faceplusplus.com/  Development
+5         Genderize.io               Estimates a gender from a first name          True      yes                      https://genderize.io  Development
+6               GitHub  Make use of GitHub repositories, code and user...  OAuth   True      yes          https://developer.github.com/v3/  Development
+7               Gitlab       Automate GitLab interaction programmatically  OAuth   True  unknown           https://docs.gitlab.com/ee/api/  Development
+8               Gitter                                Chat for Developers  OAuth   True  unknown  https://developer.gitter.im/docs/welcome  Development
+9            HTTP2.Pro  Test endpoints for client and server HTTP/2 pr...          True  unknown                 https://http2.pro/doc/api  Development
+
+Dictionaries
+Empty DataFrame
+Columns: []
+Index: []
+
+Documents & Productivity
+Empty DataFrame
+Columns: []
+Index: []
+
+Environment
+Empty DataFrame
+Columns: []
+Index: []
+
+Events
+Empty DataFrame
+Columns: []
+Index: []
+
+Finance
+Empty DataFrame
+Columns: []
+Index: []
+
+Food & Drink
+Empty DataFrame
+Columns: []
+Index: []
+
+Games & Comics
+Empty DataFrame
+Columns: []
+Index: []
+
+page 3
+['Geocoding', 'Government', 'Health', 'Jobs', 'Machine Learning', 'Music', 'News', 'Open Data', 'Open Source Projects', 'Patent']
+Geocoding
+                    API                                        Description    Auth  HTTPS     Cors                                               Link   Category
+0    IP Address Details                   Find geolocation with ip address           True  unknown                                 https://ipinfo.io/  Geocoding     
+1           IP Location                      Find location with ip address          False  unknown                                 http://ip-api.com/  Geocoding     
+2           IP Location               Find IP address location information           True  unknown                                  https://ipapi.co/  Geocoding     
+3           IP Sidekick  Geolocation API that returns extra information...  apiKey   True  unknown                             https://ipsidekick.com  Geocoding     
+4          IP Vigilante                            Free IP Geolocation API           True  unknown                       https://www.ipvigilante.com/  Geocoding     
+5           IP2Location  IP geolocation web service to get more than 55...  apiKey   True  unknown  https://www.ip2location.com/web-service/ip2loc...  Geocoding     
+6              IP2Proxy              Detect proxy and VPN using IP address  apiKey   True  unknown   https://www.ip2location.com/web-service/ip2proxy  Geocoding     
+7  IPGeolocationAPI.com    Locate your visitors by IP with country details           True      yes                      https://ipgeolocationapi.com/  Geocoding     
+8              IPInfoDB  Free Geolocation tools and APIs for country, r...  apiKey   True  unknown                           https://ipinfodb.com/api  Geocoding     
+9               ipstack  Locate and identify website visitors by IP add...  apiKey   True  unknown                               https://ipstack.com/  Geocoding     
+
+Government
+                            API                                        Description    Auth  HTTPS     Cors                                          Link    Category
+0       Open Government, France                        French Government Open Data  apiKey   True  unknown                     https://www.data.gouv.fr/  Government 
+1        Open Government, India                        Indian Government Open Data  apiKey   True  unknown                          https://data.gov.in/  Government 
+2        Open Government, Italy                         Italy Government Open Data           True  unknown                      https://www.dati.gov.it/  Government 
+3  Open Government, New Zealand                   New Zealand Government Open Data           True  unknown                     https://www.data.govt.nz/  Government 
+4      Open Government, Romania                       Romania Government Open Data          False  unknown                           http://data.gov.ro/  Government 
+5       Open Government, Taiwan                        Taiwan Government Open Data           True  unknown                          https://data.gov.tw/  Government 
+6          Open Government, USA                 United States Government Open Data           True  unknown                         https://www.data.gov/  Government 
+7               Regulations.gov  Federal regulatory materials to increase under...  apiKey   True  unknown  https://regulationsgov.github.io/developers/  Government 
+8       Represent by Open North           Find Canadian Government Representatives           True  unknown               https://represent.opennorth.ca/  Government 
+9               USAspending.gov                           US federal spending data           True  unknown                  https://api.usaspending.gov/  Government 
+
+Health
+Empty DataFrame
+Columns: []
+Index: []
+
+Jobs
+Empty DataFrame
+Columns: []
+Index: []
+
+Machine Learning
+Empty DataFrame
+Columns: []
+Index: []
+
+Music
+          API                                        Description    Auth  HTTPS     Cors                                      Link Category
+0   TasteDive  Similar artist API (also works for movies and ...  apiKey   True  unknown            https://tastedive.com/read/api    Music
+1  TheAudioDB                                              Music  apiKey   True  unknown  https://www.theaudiodb.com/api_guide.php    Music
+2    Vagalume            Crowdsourced lyrics and music knowledge  apiKey   True  unknown         https://api.vagalume.com.br/docs/    Music
+
+News
+Empty DataFrame
+Columns: []
+Index: []
+
+Open Data
+         API                                        Description   Auth  HTTPS     Cors                                              Link   Category
+0   Wikidata  Collaboratively edited knowledge base operated...  OAuth   True  unknown    https://www.wikidata.org/w/api.php?action=help  Open Data
+1  Wikipedia                             Mediawiki Encyclopedia          True  unknown      https://www.mediawiki.org/wiki/API:Main_page  Open Data
+2       Yelp                                Find Local Business  OAuth   True  unknown  https://www.yelp.com/developers/documentation/v3  Open Data
+
+Open Source Projects
+Empty DataFrame
+Columns: []
+Index: []
+
+Patent
+Empty DataFrame
+Columns: []
+Index: []
+
+page 4
+['Personality', 'Photography', 'Science & Math', 'Security', 'Shopping', 'Social', 'Sports & Fitness', 'Test Data', 'Text Analysis', 'Tracking']
+Personality
+Empty DataFrame
+Columns: []
+Index: []
+
+Photography
+Empty DataFrame
+Columns: []
+Index: []
+
+Science & Math
+Empty DataFrame
+Columns: []
+Index: []
+
+Security
+Empty DataFrame
+Columns: []
+Index: []
+
+Shopping
+Empty DataFrame
+Columns: []
+Index: []
+
+Social
+Empty DataFrame
+Columns: []
+Index: []
+
+Sports & Fitness
+Empty DataFrame
+Columns: []
+Index: []
+
+Test Data
+Empty DataFrame
+Columns: []
+Index: []
+
+Text Analysis
+Empty DataFrame
+Columns: []
+Index: []
+
+Tracking
+Empty DataFrame
+Columns: []
+Index: []
+
+page 5
+['Transportation', 'URL Shorteners', 'Vehicle', 'Video', 'Weather']
+Transportation
+                               API                                Description    Auth  ...     Cors                                               Link        Category
+0  Transport for Sao Paulo, Brazil                                    SPTrans   OAuth  ...  unknown  http://www.sptrans.com.br/desenvolvedores/api-...  Transportation
+1             Transport for Sweden                  Public Transport consumer   OAuth  ...  unknown                       https://www.trafiklab.se/api  Transportation
+2        Transport for Switzerland  Official Swiss Public Transport Open Data  apiKey  ...  unknown                https://opentransportdata.swiss/en/  Transportation
+3        Transport for Switzerland                 Swiss public transport API          ...  unknown                     https://transport.opendata.ch/  Transportation
+4    Transport for The Netherlands                            NS, only trains  apiKey  ...  unknown             http://www.ns.nl/reisinformatie/ns-api  Transportation
+5    Transport for The Netherlands       OVAPI, country-wide public transport          ...  unknown    https://github.com/skywave/KV78Turbo-OVAPI/wiki  Transportation
+6    Transport for Toronto, Canada                                        TTC          ...  unknown                        https://myttc.ca/developers  Transportation
+7      Transport for United States                                NextBus API          ...  unknown  http://www.nextbus.com/xmlFeedDocs/NextBusXMLF...  Transportation
+8  Transport for Vancouver, Canada                                  TransLink   OAuth  ...  unknown                    https://developer.translink.ca/  Transportation
+9     Transport for Washington, US             Washington Metro transport API   OAuth  ...  unknown                       https://developer.wmata.com/  Transportation
+
+[10 rows x 7 columns]
+
+URL Shorteners
+Empty DataFrame
+Columns: []
+Index: []
+
+Vehicle
+Empty DataFrame
+Columns: []
+Index: []
+
+Video
+Empty DataFrame
+Columns: []
+Index: []
+
+Weather
+Empty DataFrame
+Columns: []
+Index: []
+
+Successfully pushed to SQLite database
+db query results
+                                   0
+0                          Cat Facts
+1                               Cats
+2                               Dogs
+3                            HTTPCat
+4                               IUCN
+..                               ...
+103    Transport for The Netherlands
+104    Transport for Toronto, Canada
+105      Transport for United States
+106  Transport for Vancouver, Canada
+107     Transport for Washington, US
+
+[108 rows x 1 columns]

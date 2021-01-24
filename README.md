@@ -8,9 +8,6 @@ Pre-Docker steps:
         a. docker --version
         b. docker info
         c. docker run hello-world
-    3. Troubleshooting: 
-        a. Enable Hyper-V
-        b. Save "Dockerfile" without extension. 
 
 I. Steps to run the program
     1. Clone the project into local machine 
@@ -21,7 +18,7 @@ I. Steps to run the program
      Outputs:
         This presents the crawled data and displays in the form of data frames for each category
         "Successfully pushed to SQLite database" is displayed which means the data is pushed into a database
-
+        108 rows are obtained.
 
 
 II. Language and tools used
@@ -59,7 +56,8 @@ IV. Points achieved
             b3. modularity: code split into 2 modules namely "Scrape.py" & "Sqlite_data.py"
             b4. Tried to minimize global variables
             b5. Encapsulation - data is mostly used and transferred only inside the class members 
-        c. DRY - Do not Repeat Yourself
+            b6. code comments
+        c. DRY - Don't Repeat Yourself
             Tried to incorporate this principle into the code logic as much as possible.
 
     2. Support for handling athentication requirements & token expiration of server
@@ -102,7 +100,7 @@ IV. Points achieved
     A few important observations:
     The given API return absolute zero entries for some categories.
     Responses received for such categories are stored in a data member empty_categories.
-    Lastly, feel free to raise an issue. All required changes can be accomodated based on the validity of use-case. 
+    Lastly, feel free to raise an issue. All required changes can be accomodated immediately. 
       
  V. Possible Improvements      
       1. There are a few different types of ways to creating,storing,retrieving from the database
